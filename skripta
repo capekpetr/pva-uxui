@@ -1,0 +1,152 @@
+## Úvod
+- **UX/UI**
+	- **Co to vlastně znamená?**
+		- UI je zkratka pro User Interface. UI design se zabývá vizuální podobou věci (jak ve fyzickém tak virtuálním světě) s ohledem například na kontrast barev, stávající vizuální identitou firmy atd. 
+		- UX je zkratka pro User Experience. UX design se zabývá uživatelskou zkušeností a tím, jak věc funguje. Snaží se odstranit problémy, zbytečné zádrhely nebo nedostatky z očí uživatele. 
+	- **Jak spolu tyto pojmy souvisejí?**
+		- UX/UI = (How Does It Work vs How Does It Look)
+		- Jak je již z definice patrné, UI a UX se neobejde jeden bez druhého. Kvůli tak silné závislosti jeden na druhém v praxi nejčastěji nacházíme designéry, kteří jsou zaměřeni jak na UI, tak i UX. 
+		- UX/UI se řídí následujícími 4 kroky - **Research, Koncept, Design a Testing**. Při návrhu UX/UI se začíná v UX designu, kdy UX designer udělá důkladnou research cílové skupiny a z jejích očí vytvoří koncept toho, jak by mohl produkt vypadat a jak by měl fungovat (UX designer pracuje pouze v odstínech šedi, nesoustředí se na přesnou vizualizaci). Návrh poté UI designer vypracuje do vizuálně přívětivé podoby a společně s UX designerem řeší chyby a nedostatky, produkt testují. 
+	- **UX/UI designer jako profese**
+		- UX/UI designer musí mít dobré znalosti v oblasti designu, psychologie a technologií. Musí být vysoce kreativní a schopen přemýšlet z pohledu uživatele. Vzdělání v oblasti designu a informatiky je výhodou ale není nutné, neboť většina UX/UI designerů se učí formou samostudia z internetu a online kurzů. 
+		- V české republice je statisticky průměrná mzda UX/UI designéra 65 000 Kč měsíčně. V Americe je to v přepočtu 196 000 Kč za měsíc. 
+
+## Tvorba UX
+- Jako první začíná UX designer důkladným průzkumem cílové skupiny, zjistí jaké jsou její představy a cíle a následně zmapuje jejich možné cesty v prostředí. Vytvoří tzv. User Flow Diagram. 
+- Z User Flow Diagramu přichází na řadu tvorba návrhu jednotlivých stránek, tzv. Wireframes. Návrh takového Wireframe vyžaduje opravdu náročné přemýšlení a analyzování možného chování uživatele. Při návrhu je nutné vycházet z určitých psychologických zákonů, neurovědeckých studií a všeobecných standardů. K tomu slouží následující zásady UX (https://lawsofux.com/). 
+- **Všeobecné zákony**
+	- **Doherty Threshold**
+		- Produktivita stoupá, když počítač a jeho uživatel komunikují rychle (odezva menší než 400 ms), která zajišťuje, že ani jeden z nich nemusí čekat na druhého.
+			- Díky progress barům je čekací doba mnohem snesitelnější (i když jsou nepřesné). 
+	- **Occam’s Razor**
+		- Pokud pro nějaký jev existuje vícero vysvětlení, je lépe upřednostňovat to nejméně komplikované.
+			- Nejlepší metodou pro snížení komplexnosti je v první řadě se jí vyhnout.
+			- O dokončení bychom měli uvažovat pouze tehdy, pokud nejdou odstranit žádné další položky. 
+	- **Pareto Principle**
+		- U mnoha událostí zhruba 80% následků pochází z 20% příčin. (80/20 rule)
+			- Zaměřme většinu úsilí na oblasti, které přinesou největší užitek většině uživatelů.
+	- **Postel’s Law**
+		- Buďte liberální v tom, co přijímáte, a konzervativní v tom, co posíláte.
+			- Z hlediska uživatelského vstupu očekávejme cokoliv, zatímco naše rozhraní je spolehlivé, přístupné a jednoduché.  
+	- **Tesler’s Law**
+		- Teslerův zákon, známý také jako zákon zachování složitosti, říká, že pro každý systém existuje určité množství složitosti, které nelze snížit.
+- **Uživatelské chování a práce s ním**
+	- **Aesthetic-Usability Effect**
+		- Esteticky příjemný design vyvolává v mozku lidí pozitivní odezvu a vede je k přesvědčení, že produkt skutečně funguje lépe.
+	- **Fitts’s Law**
+		- Čas potřebný k dosáhnutí dotykového cíle je ovlivněn fyzickou vzdáleností od cíle a jeho velikostí.
+			- Dotykové cíle by měly být dostatečně velké, aby je uživatelé mohli přesně vybrat.
+			- Mezi dotykovými cíli by měly být dostatečné rozestupy.
+			- Dotykové cíle by měly být umístěny v oblastech rozhraní, které umožňují snadný dosah.
+	- **Goal-Gradient Effect**
+		- Čím blíže jsou uživatelé k dokončení úkolu, tím rychleji se k němu dopracují.
+	- **Hick’s Law**
+		- Čas potřebný k rozhodnutí uživatele se zvyšuje s počtem možností a jejich složitostí.
+	- **Jakob’s Law**
+		- Uživatelé tráví většinu času na jiných stránkách. To znamená, že uživatelé preferují, aby váš web fungoval stejně jako všechny ostatní weby, které již znají.
+	- **Miller’s Law**
+		- Průměrný člověk dokáže v pracovní paměti udržet pouze 7 (plus mínus 2) položek.
+			- Obsah je vhodné uspořádat do menších celků, abychom uživatelům usnadnili zpracování, pochopení a zapamatování.
+	- **Parkinson’s Law**
+		- Doba na dokončení úkolu se bude bez ohledu na množství práce navyšovat, dokud nebude vyčerpán veškerý dostupný čas. 
+			- Čím více času uživateli dáme na dokončení stejného úkolu, tím déle mu to bude trvat, má totiž tendenci naplnit celý časový rámec i když úkol zvládne udělat mnohem rychleji. 
+- **Podvědomé vnímání**
+	- **Law of Common Region**
+		- Prvky mají tendenci být vnímány jako skupiny, pokud sdílejí oblast s jasně vymezenou hranicí.
+	- **Law of Proximity**
+		- Předměty, které jsou blízko sebe, mají tendenci být seskupovány dohromady.
+			- Prvky v těsné blízkosti jsou vnímány jako prvky s podobnou funkčností nebo vlastnostmi.
+	- **Law of Prägnanz**
+		- Lidé budou vnímat a chápat nejednoznačné nebo složité obrázky v té nejjednodušší možné podobě a tudíž z něho ne všechno pochytí. Díky tomu se lidský mozek nezahltí informacemi. 
+	- **Law of Similarity**
+		- Lidské oko má tendenci vnímat podobné prvky v designu jako ucelený obraz, tvar nebo skupinu, i když jsou tyto prvky odděleny.
+	- **Law of Uniform Connectedness**
+		- Prvky, které jsou vizuálně propojené, jsou vnímány jako více související než prvky bez propojení.
+			- Seskupte funkce podobného charakteru tak, aby byly vizuálně propojeny pomocí barev, čar, rámečků nebo jiných tvarů.
+- **Paměť uživatelů**
+	- **Peak-End Rule**
+		- Lidé hodnotí zážitek převážně podle toho, jak se cítili na jeho vrcholu a na jeho konci, a ne podle celkového součtu nebo průměru všech okamžiků zážitku.
+			- Věnujte velkou pozornost nejintenzivnějším bodům a závěrečným okamžikům cesty uživatele.
+	- **Serial Position Effect**
+		- Uživatelé mají tendenci si nejlépe zapamatovat první a poslední položku v sérii.
+	- **Von Restorff Effect**
+		- Von Restorffův efekt, známý také jako efekt izolace, předpovídá, že pokud je přítomno více podobných objektů, je pravděpodobnější, že si zapamatujeme ten, který se od ostatních liší.
+	- **Zeigarnik Effect**
+		- Lidé si pamatují nedokončené nebo přerušené úkoly lépe než úkoly dokončené.
+			- Poskytnutím jasné indikace pokroku (progress bar) motivujeme uživatele k dokončení úkolu. 
+
+### Tvorba UI
+- Po obdržení hotových Wireframes začíná práce UI designéra, která spočívá ve vizualizaci. Každý komponent v projektu by měl správně designově vycházet z určitých předloh. Tedy různá tlačítka, ikony, boxy, formuláře, karty, fonty nebo barvy by měli mít identický styl. Díky tomu dosáhneme velice podstatné konzistence obsahu na stránce. 
+- **Barvy**
+	- Testovat barvy, fonty a pozadí můžeme v reálném čase na této stránce: https://www.realtimecolors.com/. 
+	- Je prokázáno, že správná barva na tlačítku dokáže zvýšit proklik uživatelů až dvojnásobně. 
+	- Vybrané barvy by měli vycházet z barev daného odvětví, firemní identity, loga, produktu a nebo hodnot, které mají prezentovat. V rámci barev je nutné pracovat s tím, jaké pocity vyvolávají.
+		- **Červená**: síla, energie a vášeň
+		- **Oranžová**: teplo, přátelství a dobrodružství
+		- **Žlutá**: optimismus, kreativita a štěstí
+		- **Zelená**: příroda, růst a prosperita
+		- **Modrá**: Logika, věrnost a spolehlivost
+		- **Růžová**: romantika, něha a představivost
+		- **Fialová**: bohatství, vize a tajemství
+		- **Hněda**: stabilita, pohodlí a podpora
+		- **Černá**: luxus, elegance a tajemno
+		- **Šedá**: neutralita, praktičnost a profesionalita
+		- **Bílá**: jednoduchost, čistota a zdraví
+	- **Barvy bychom měli vybírat konzistentní podle následujícího dělení:**
+		- **Text**
+			- Na světlém pozadí je nejlepší následující primární barevná kombinace textů podle velikostí a účelu. 
+				- #2E2E2E
+				- #4E4E4E
+				- #6E6E6E
+		- **Pozadí**
+			- Pokud chceme použít bílou barvu, není vhodné používat jiné odstíny než je čistá bílá. Pokud si vybereme například lehce vybledlou nebo lososovou bílou barvu, s největší pravděpodobností nebude vypadat dobře. 
+		- **Primary**
+			- Tato barva je vhodná použít asi na 10% obsahu obrazovky jako CTA prvky nebo důležité nadpisy. 
+			- Pokud máme dvě tlačítka vedle sebe, neměla by být stejná. Nejlepší je udělat jedno z nich outline k primární barvě, secondary nebo mu dát barvu #2E2E2E. 
+		- **Secondary**
+			- Barva sekundující k primární. Můžeme použít na tlačítka. 
+- **Fonty**
+	- Font by měl stejně jako barva odpovídat tomu, jaký je účel daného projektu. Různé fonty působí různě a není vhodné mít na seriózní stránce Comic Sans. 
+	- Párování fontů může být hodně náročné, proto se na začátek nedoporučuje. Když je ale párovat chceme, neměli bychom na stránce mít více než 2 - 3 fonty. 
+		- Párovat fonty můžeme zde: https://typescale.com/. 
+	- Odlišných velikostí fontů na stránce by nemělo být více než 4. 
+	- Minimální velikost fontu by měla být 12.
+- **Ikony**
+	- Stovky knihoven + **KISS** (Keep It Simple Stupid) a co nejvíce konzistentní.
+- **Odsazení**
+	- Nejčastější tzv. **8Point grid** - 4, 8, 12, 16, 20, 24, 32, 40, ze kterého se můžeme rozhodovat. 
+	- Jednoduché pravidlo - malé odsazení uvnitř skupiny prvků a velké mezi skupinami prvků. 
+- **Feedback**
+	- Uživatelé by měly dostávat od stránky určitý feedback ve formě animací,  různých hover efektů nebo haptické odezvy v případě nativních aplikací. 
+- **Ilustrace a grafika**
+	- Výběr správných obrázků, ilustrace nebo grafiky nám dokáže pomoci navodit určité pocity a emoce uživateli. Zároveň slouží i pro lepší pochopení produktu, značky nebo aktuálního tématu. Pomáhá uživatelům vizualizovat. 
+	- Grafiku a různé ilustrace můžeme najít na stránkách zdarma i v placené podobě, případně si je můžeme udělat sami. (**KISS** + **konzistence**)
+
+## Programy a nástroje pro návrh UX/UI
+- **Research**
+	- Google sheets
+	- LookBack (pokročilý)
+- **Koncept**
+	- Figma
+	- Sketch
+	- Papír a tužka
+- **Design**
+	- Figma
+	- Wireframes
+	- Oxygen, Elementor (WordPress)
+- **Testování**
+	- Reální uživatelé prototypu, které osobně známe a vybereme (nejlepší)
+	- UserTesting
+## Příklady dobrého UX/UI designu
+- Výjimečný UX/UI design od jinud 
+	- https://www.motleycrowd.live/
+	- https://weaintplastic.com/
+	- https://www.apple.com/cz/mac-studio/
+	- https://steasy.ch/
+	- https://jigsaw.google.com/
+	- https://seed.com/
+	- https://www.amie.so/
+	- https://linear.app/
+- Vlastní UX/UI design
+	- HTML, CSS
+	- Canva?
